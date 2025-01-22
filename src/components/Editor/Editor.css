@@ -1,0 +1,16 @@
+textarea {
+  width: 400px;
+  height: 200px;
+  background-color: #c0d8d8;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+  textarea {
+    width: 350px;
+  }
+}
+
+textarea:focus {
+  outline: none;
+}
